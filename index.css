@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  font: 32px sans-serif;
+  height: 50vh;
+  resize: none;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+textarea:focus {
+  border: none;
+  outline: none;
+}
